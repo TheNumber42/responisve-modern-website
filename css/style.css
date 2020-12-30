@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 :root{
-    --primaryColor: #0080a0;
+    --primaryColor: #047aed;
     --secondaryColor: #1c3fa8;
     --darkColor: #002240;
     --lightColor: #f4f4f4;
@@ -51,6 +51,11 @@ code, pre {
     background: var(--grayColor);
     color: var(--whiteColor);
     padding: 10px;
+}
+
+.hidden{
+    visibility: hidden;
+    height: 0;
 }
 
 /* Navbar */
